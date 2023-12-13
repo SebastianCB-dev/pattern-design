@@ -24,6 +24,8 @@ Un patrón es una solución reutilizable que se puede aplicar a problemas que oc
 3. Comportamiento
   - Los patrones de diseño de comportamiento se utilizan para administrar algoritmos, relaciones y responsabilidades entre objetos.
 
+# Patrones
+
 1. Segregación de interfaces
   - Basicamente se trata de dividir las interfaces en interfaces mas pequeñas y especificas, en lugar de tener una sola interfaz grande y general. De esta manera, las clases solo necesitan implementar las interfaces que son relevantes para ellas. Esto hace que el código sea más limpio y fácil de entender y evita que las clases implementen métodos que no necesitan.
 
@@ -53,6 +55,8 @@ A pattern is a reusable solution that can be applied to commonly occurring probl
   - Structural design patterns are used to form large software structures from smaller and simpler classes and objects.
 3. Behavioral
   - Behavioral design patterns are used to manage algorithms, relationships, and responsibilities between objects.
+
+# Patterns
 
 1. Interface segregation
   - Basically it is about dividing the interfaces into smaller and more specific interfaces, instead of having a single large and general interface. In this way, classes only need to implement the interfaces that are relevant to them. This makes the code cleaner and easier to understand and prevents classes from implementing methods they don't need.
