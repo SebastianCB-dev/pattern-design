@@ -29,6 +29,9 @@ Un patrón es una solución reutilizable que se puede aplicar a problemas que oc
 1. Segregación de interfaces
   - Basicamente se trata de dividir las interfaces en interfaces mas pequeñas y especificas, en lugar de tener una sola interfaz grande y general. De esta manera, las clases solo necesitan implementar las interfaces que son relevantes para ellas. Esto hace que el código sea más limpio y fácil de entender y evita que las clases implementen métodos que no necesitan.
 
+2. Decorador
+  - El patrón de decorador se utiliza para agregar funcionalidad a un objeto sin cambiar su estructura. Esto se puede lograr creando una clase decoradora que envuelve la clase original y proporciona funcionalidad adicional en sus métodos. La clase decoradora implementa la misma interfaz que la clase original, por lo que se puede usar en lugar de la clase original. La clase decoradora también contiene una referencia a la clase original, por lo que puede llamar a los métodos de la clase original y agregar funcionalidad adicional a los métodos. La clase decoradora también puede agregar nuevos métodos.
+
 
 # Pattern Design
 
@@ -60,3 +63,6 @@ A pattern is a reusable solution that can be applied to commonly occurring probl
 
 1. Interface segregation
   - Basically it is about dividing the interfaces into smaller and more specific interfaces, instead of having a single large and general interface. In this way, classes only need to implement the interfaces that are relevant to them. This makes the code cleaner and easier to understand and prevents classes from implementing methods they don't need.
+
+2. Decorator
+  - The decorator pattern is used to add functionality to an object without changing its structure. This can be achieved by creating a decorator class that wraps the original class and provides additional functionality in its methods. The decorator class implements the same interface as the original class, so it can be used instead of the original class. The decorator class also contains a reference to the original class, so it can call the methods of the original class and add additional functionality to the methods. The decorator class can also add new methods. 
